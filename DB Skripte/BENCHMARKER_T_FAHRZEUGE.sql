@@ -1,0 +1,1 @@
+INSERT INTO BENCHMARKER.T_FAHRZEUGE (NAME, EN_NAME, DE_DESC, DE_LINK, EN_DESC, EN_LINK, DE_SYN, EN_SYN, CODE) VALUES ('Personenkraftwagen', 'Passenger cars', null, null, null, null, null, null, 'EK7-1');

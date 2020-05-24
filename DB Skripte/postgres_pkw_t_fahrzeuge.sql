@@ -1,0 +1,1 @@
+INSERT INTO pkw.t_fahrzeuge (code, name, en_name, de_desc, de_link, en_desc, en_link, de_syn, en_syn) VALUES ('EK7-1', 'Personenkraftwagen', 'Passenger cars', null, null, null, null, null, null);

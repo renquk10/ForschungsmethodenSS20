@@ -1,0 +1,52 @@
+create table T_NEUZULASSUNGEN
+(
+    NEUZULASSUNGEN    NUMBER,
+    PKW_MARKEN        VARCHAR2(50),
+    FAHRZEUGEN        VARCHAR2(50),
+    ZEIT_MONATSWERTEN VARCHAR2(50)
+)
+/
+
+create table T_PKW_MARKEN
+(
+    EN_NAME CLOB,
+    DE_DESC CLOB,
+    DE_LINK CLOB,
+    EN_DESC CLOB,
+    EN_LINK CLOB,
+    DE_SYN  CLOB,
+    EN_SYN  CLOB,
+    CODE    VARCHAR2(50),
+    NAME    VARCHAR2(255)
+)
+/
+
+create table T_FAHRZEUGE
+(
+    NAME    CLOB,
+    EN_NAME CLOB,
+    DE_DESC CLOB,
+    DE_LINK CLOB,
+    EN_DESC CLOB,
+    EN_LINK CLOB,
+    DE_SYN  CLOB,
+    EN_SYN  CLOB,
+    CODE    VARCHAR2(50)
+)
+/
+
+create table T_ZEIT_MONATSWERTE
+(
+    EN_NAME CLOB,
+    DE_DESC CLOB,
+    DE_LINK CLOB,
+    EN_DESC CLOB,
+    EN_LINK CLOB,
+    DE_SYN  CLOB,
+    EN_SYN  CLOB,
+    CODE    VARCHAR2(50),
+    NAME    VARCHAR2(255)
+)
+/
+
+
